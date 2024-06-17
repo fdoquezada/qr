@@ -37,21 +37,6 @@ qr_generator/
 git clone https://github.com/fdoquezada/qr.git
 cd qr
 
-
-Claro, aquí tienes un archivo README para tu proyecto:
-
-markdown
-Copiar código
-# QR Code Generator
-
-Una aplicación web sencilla para generar códigos QR utilizando Flask y la librería qrcode en Python.
-
-## Descripción
-
-Esta aplicación permite a los usuarios generar códigos QR a partir de texto ingresado. La aplicación está construida con Flask y utiliza la librería qrcode para generar las imágenes de los códigos QR.
-
-## Estructura del Proyecto
-
 qr_generator/
 │
 ├── app.py
@@ -61,21 +46,6 @@ qr_generator/
 └── static/
 └── styles.css
 
-markdown
-Copiar código
-
-- `app.py`: Archivo principal de la aplicación Flask.
-- `requirements.txt`: Lista de dependencias del proyecto.
-- `templates/index.html`: Plantilla HTML para la interfaz de usuario.
-- `static/styles.css`: Archivo CSS para estilos de la aplicación.
-
-## Requisitos
-
-- Python 3.7 o superior
-- Flask
-- qrcode[pil]
-
-## Instalación
 
 1. Clona el repositorio:
 
